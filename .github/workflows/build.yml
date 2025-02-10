@@ -3,7 +3,7 @@ name: Build Success on PR
 on:
   pull_request:
     branches:
-      - main
+      - any
 
 jobs:
   build:
@@ -13,7 +13,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: "20.9.0"
+          node-version: "20"
 
       - name: Install Dependencies
         run: npm install
