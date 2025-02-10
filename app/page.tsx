@@ -115,7 +115,7 @@ export default function PricingPage() {
             </TabsTrigger>
             <TabsTrigger value="annual" onClick={() => setIsAnnual(true)}>
               Annual
-            </TabsTrigger>
+            {/* </TabsTrigger> */}
           </TabsList>
         </div>
 
