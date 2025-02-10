@@ -111,10 +111,10 @@ export default function PricingPage() {
         <div className="flex justify-center mb-8">
           <TabsList className="grid grid-cols-2 bg-blue-100 text-black">
             <TabsTrigger value="monthly" onClick={() => setIsAnnual(false)}>
-              Monthly
+              Monthly Toufiq
             </TabsTrigger>
             <TabsTrigger value="annual" onClick={() => setIsAnnual(true)}>
-              Annual
+              Annual Farhan
             </TabsTrigger>
           </TabsList>
         </div>
