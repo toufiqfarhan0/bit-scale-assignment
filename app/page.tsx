@@ -134,7 +134,7 @@ export default function PricingPage() {
         <TabsContent value="annual">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {pricingPlans.map((plan, index) => (
-              <PricingCard key={index} plan={plan} isAnnual={true} />
+              // <PricingCard key={index} plan={plan} isAnnual={true} />
             ))}
           </div>
         </TabsContent>
