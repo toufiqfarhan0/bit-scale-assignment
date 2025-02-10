@@ -1,4 +1,4 @@
-name: Deply Success on PR
+name: Deploying Success on PR
 
 on:
   pull_request:
